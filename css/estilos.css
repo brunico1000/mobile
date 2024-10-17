@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    
+
+.phones {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 55%;
+}
+
+.phones img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-basis: 45%;
+    padding: 20px;
+}
+
+.instagram-logo {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 550px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-header img {
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-btn:hover {
+    background-color: #307cc8;
+}
+
+a {
+    color: #3897f0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.switch-account {
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    padding: 15px;
+    border-radius: 10px;
+    width: 550px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.switch-account p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.download-apps {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-buttons img {
+    width: 130px;
+}
+
+.perfil{
+    border-radius: 200px;
+}
+
+@media (max-width:912px){
+    .phones{
+        display: none;
+    }
+}
